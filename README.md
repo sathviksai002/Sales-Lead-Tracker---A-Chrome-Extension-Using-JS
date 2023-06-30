@@ -1,5 +1,6 @@
 <h1 align="center">Sales-Lead-Tracker---A-Chrome-Extension-Using-JS</h1>
 <p align="center"><img src="https://poser.pugx.org/cpriego/valet-linux/license.svg" alt="License"></a>
+<br>
 A sales lead tracker, for sales persons to store inputs and urls of the persons he/she might visit to enhance sales progress of company. 
 </p>
 
