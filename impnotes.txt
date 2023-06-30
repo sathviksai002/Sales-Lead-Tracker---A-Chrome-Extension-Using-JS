@@ -1,0 +1,62 @@
+    // create element
+    // set text content
+    // append to unordered list
+    // const li = document.createElement("li");
+    // li.textContent = myLeads[count];
+    // ulEl.append(li); -> alternate way -> but .innerHTML is easier. //innerHTML -> it can render using the html elements dom, but innertext only renders putting js in nature into tezxt
+// Use .innerHTML to render a Buy! button inside the div container
+
+// const buying = document.getElementById("container");
+
+
+// buying.innerHTML += "<button>" + "Buy" + "</button>"
+
+// when the users forgot to put it in the html we can use innerhtml from javascript to write html to using js dom
+
+//function buy(){
+//     container.innerHTML += "<p> Thankyou for buying! </p>";
+// }
+
+
+inputEl.value = ""; -> to clear the input field after submitting
+// template strings ``
+
+const recipient = "James"
+
+// Refactor the email string to use template strings
+const email = `Hey ${recipient}! How is it going? Cheers Per`
+
+console.log(email)
+
+
+LOCAL STORAGE:
+RESISITING THE DATA EVEN THOUGH THE EXTENSION GETS REFRESHED
+
+IT HAS TO STORE ALL THE DATA IN THE FIELDS
+WE CAN HAVE A GLANCE ON GOING TO THE INSPECT, APPLICATION, LOCAL STORAGE
+WE CAN SEE THAT THEY ARE STORED IN KEY : VALUE PAIRS
+
+KEY IS FOR THE UNIQUE KEY HAVING AND STORING THE ELEMENTS INTO THAT ONE
+VALUE IS FOR THE VALUE TO BE STORED
+
+
+Truthy
+Falsy
+
+
+if("yolo") -> "" anything filled is truthy value    
+            -> nothing filled is falsy value or empty string is
+// null -> how you as a developer signalize emptiness
+// undefined -> how JavaScript signalizes emptiness
+
+// localStorage.setItem("myLeads","www.exampleleads.com")
+// both the key and value needs to be strings
+
+// localStorage.setItem("Sathvik","www.facebook.com");
+// localStorage.clear()
+// console.log(localStorage.getItem("Sathvik"));
+// console.log(localStorage.getItem("myLeads"));
+
+//JSON.STRINGIFY -> TAKES THE ARRAYS AND TURNS INTO THE STRINGS OR JSON.PARSE()
+
+//typeof  -> type whether it is string array
